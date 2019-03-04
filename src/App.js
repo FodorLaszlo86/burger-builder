@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
-import style from './sampleStyle.css';
+import Layout from './components/Layout/Layout';
+import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder';
+
 
 class App extends Component {
   render() {
     return (
-      <div className={ style.center } >
-      <h1 className={ style.big_red } >Hello React I am hungry, Get me a BURGER</h1>
+      <div>
+        <Layout>
+          <BurgerBuilder />
+        </Layout>
       </div>
     );
-  }
+  } 
 }
 
 export default App;
