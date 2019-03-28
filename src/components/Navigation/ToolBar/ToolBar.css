@@ -15,5 +15,14 @@
 
 .ToolBar nav {
     height: 100%;
-    
+}
+
+.Logo {
+    margin-bottom: 32px;
+}
+
+@media (max-width: 499px) {
+    .DesktopOnly {
+        display: none;
+    }
 }
